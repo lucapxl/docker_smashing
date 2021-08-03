@@ -4,5 +4,7 @@ gem 'smashing'
 gem 'tzinfo-data'
 gem 'tzinfo'
 gem 'nokogiri'
+gem 'rest-client'
 gem 'json'
-
+gem 'execjs'
+gem 'mini_portile2'

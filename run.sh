@@ -33,4 +33,5 @@ if [[ ! -z "$PORT" ]]; then
 fi
 
 # Start smashing
+cd /smashing
 exec smashing start $PORT_ARG
