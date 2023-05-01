@@ -11,7 +11,9 @@ function install_widgets() {
 }
 
 if [ "$(ls -A /smashing)" ]; then
-     echo "Smashing directory is not empty. I'm not going to create a new smashing dashboard"
+    echo "Smashing directory is not empty. I'm not going to create a new smashing dashboard"
+    cd /smashing
+    bundle install
 else
     echo "Smashing directory is Empty: creating a new sample dashboard"
     cd /
